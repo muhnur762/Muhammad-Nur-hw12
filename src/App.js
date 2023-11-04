@@ -4,6 +4,8 @@ import * as React from 'react';
 function Board() {
   const squares = Array(9).fill(null);
   function selectSquare(square) {
+    const nextSquares = squares.slice();
+    console.log(nextSquares);
 
   }
 
